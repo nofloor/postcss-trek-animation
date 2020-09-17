@@ -58,4 +58,4 @@ function trekAnimation(options = defaults) {
 
 trekAnimation.postcss = true;
 
-export default trekAnimation;
+module.exports = trekAnimation;
