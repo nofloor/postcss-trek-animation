@@ -42,7 +42,7 @@ function trekAnimation(options = defaults) {
       if (decl.prop === '-trek-transition') {
         const values = decl.value.split(/\s\s?/g);
         const properties = [];
-        while (/\d+(s|ms)/.test(values[0]) === false) {
+        while (undefined !== values[0] && /\d+(s|ms)/.test(values[0]) === false) {
           properties.push(values.shift());
         }
         decl
