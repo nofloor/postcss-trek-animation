@@ -1,17 +1,17 @@
 {
   "name": "postcss-trek-animation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Animation shorthands for Trek.",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "postcss": "^8.0.3"
+    "jest": "^26.4.2"
   },
   "peerDependencies": {
     "postcss": "^8.0.3"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "Taha Kelesoglu (nofloor)",
   "license": "MIT",
